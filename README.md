@@ -40,9 +40,8 @@ Base de datos para una tienda de cosmeticos.
 ## Tecnologías :computer:
 <a name="tecno"></a>
 Tecnologías utilizadas para desarrollar el proyecto.
-- Tecnología 1.
-- Tecnología 2.
-- Tecnología 3.
+- StarUML. 
+- MySQL Workbeanch. 
 
 ---
 
