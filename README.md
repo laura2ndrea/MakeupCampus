@@ -33,13 +33,26 @@ Base de datos para una tienda de cosmeticos.
 - Ventas, ventas_productos: tablas relacionadas con productos, clientes y empleados. Para registrar las ventas hechas a clientes.
 - Compras, compras_productos: tablas relacionadas con productos, proveedores. Para registrar las compras de productos hechas a proveedores.
 - Empresas, empresas_proveedores: tablas relacionadas con el proveedor. Guardar informacion adicional acerca del proveedor y a la empresa que pertenece.
-- Tipos_piel, aromas, tonos_colores, ...: tablas que estan relacionadas con diferentes productos y que contiene informacion adicional acerca de este. 
+- Tipos_piel, aromas, tonos_colores, ...: tablas que estan relacionadas con diferentes productos y que contienen informacion adicional acerca de estos.
+
+### Consultas realizadas 
+Todas las consultas se hicieron utilizando procedimientos almacenados y fueron las siguientes: 
+1. Listar todos los productos de cosméticos de un tipo específico (por ejemplo, "labial").
+2. Obtener todos los productos en una categoría (cosméticos, cuidado de la piel, perfumes, accesorios) cuyo stock sea inferior a un valor dado.
+3. Mostrar todas las ventas realizadas por un cliente específico en un rango de fechas.
+4. Calcular el total de ventas realizadas por un empleado en un mes dado.
+5. Listar los productos más vendidos en un período determinado.
+6. Consultar el stock disponible de un producto por su nombre o identificador.
+7. Mostrar las órdenes de compra realizadas a un proveedor específico en el último año.
+8. Listar los empleados que han trabajado más de un año en la tienda.
+9. Obtener la cantidad total de productos vendidos en un día específico.
+10. Consultar las ventas de un producto específico (por nombre o ID) y cuántas unidades se vendieron
   
 ### Archivos
 
-- `DDL.sql`: Archivo de definición de la base de datos. Contiene las sentencias SQL para la creación de tablas y relaciones.
-- `dml.sql`: Archivo que contiene sentencias SQL para la inserción de datos iniciales en las tablas.
-- `dql.sql`: Archivo que contiene sentencias SQL para la consulta de los datos en las tablas.
+- `ddl.sql`: Contiene las sentencias SQL para la creación de tablas y relaciones.
+- `dml.sql`: Contiene sentencias SQL para la inserción de datos iniciales en las tablas.
+- `dql.sql`: Contiene sentencias SQL para la consulta de los datos en las tablas.
   
 ---
 
