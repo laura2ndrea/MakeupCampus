@@ -17,7 +17,7 @@ Base de datos para una tienda de cosmeticos.
   
 ### Diagrama E-R
 
- <img src="/imagenes-readme/home-can.png" width="80%" alt="home">
+ <img src="/MakeupCampus.jpg" width="80%" alt="home">
 
 
 ### Entidades principales 
