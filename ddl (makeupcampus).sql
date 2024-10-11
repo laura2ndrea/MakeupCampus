@@ -162,14 +162,14 @@ CREATE TABLE IF NOT EXISTS Empresas (
 CREATE TABLE IF NOT EXISTS Proveedores (
 	id INT PRIMARY KEY AUTO_INCREMENT,
     nombre VARCHAR(100) NOT NULL,
-    telefono INT NOT NULL,
+    telefono VARCHAR (100) NOT NULL,
     direccion VARCHAR(100) NOT NULL,
     id_empresa INT,
     FOREIGN KEY (id_empresa) REFERENCES Empresas(id)
 );
 
 CREATE TABLE IF NOT EXISTS Compras (
-	id INT PRIMARY KEY,
+	id INT PRIMARY KEY AUTO_INCREMENT,
     id_proveedor INT,
     fecha_orden DATETIME NOT NULL,
     total DECIMAL(10,2) NOT NULL,
@@ -179,6 +179,8 @@ CREATE TABLE IF NOT EXISTS Compras (
 CREATE TABLE IF NOT EXISTS Compras_Productos (
 	id_compra INT,
 	id_producto INT,
+    cantidad INT NOT NULL, 
+    subtotal DECIMAL (10,2) NOT NULL, 
 	PRIMARY KEY (id_compra, id_producto),    
     FOREIGN KEY (id_compra) REFERENCES Compras(id),    
     FOREIGN KEY (id_producto) REFERENCES Productos(id)
