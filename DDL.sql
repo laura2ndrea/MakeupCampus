@@ -50,6 +50,7 @@ CREATE TABLE IF NOT EXISTS Empleados (
 	id_empleado INT PRIMARY KEY AUTO_INCREMENT,
     nombre VARCHAR(100) NOT NULL,
     id_puesto INT,
+    fecha_contratacion DATE, 
     FOREIGN KEY (id_puesto) REFERENCES Puestos(id_puesto)
 );
 
