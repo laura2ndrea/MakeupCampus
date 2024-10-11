@@ -55,7 +55,7 @@ Tecnologías utilizadas para desarrollar el proyecto.
 <a name="install"></a>
 
 1. Clona este repositorio:  
-git clone (https://github.com/laura2ndrea/Tienda_Cosmeticos)
+git clone (https://github.com/laura2ndrea/MakeupCampus)
 
 2. Carga los archivos SQL en tu sistema de gestión de bases de datos para crear las tablas y poblarlas con los datos iniciales. Asegúrate de ejecutar primero el archivo `ddl.sql` para crear las tablas y luego el archivo `dml.sql` para insertar los datos.
 
@@ -69,7 +69,7 @@ git clone (https://github.com/laura2ndrea/Tienda_Cosmeticos)
    - *Aportes: diagrama, consultas, documentación*
    - *Contacto: laura2ndrea12@gmail.com*
  
-  - **Michelle Sanchez**:
+- **Michelle Sanchez**:
    - *Aportes: creacion, inserciones, documentación*
    - *Contacto: micdaya02@gmail.com*
 
