@@ -37,7 +37,7 @@ Base de datos para una tienda de cosmeticos.
   
 ### Archivos
 
-- `ddl.sql`: Archivo de definición de la base de datos. Contiene las sentencias SQL para la creación de tablas y relaciones.
+- `DDL.sql`: Archivo de definición de la base de datos. Contiene las sentencias SQL para la creación de tablas y relaciones.
 - `dml.sql`: Archivo que contiene sentencias SQL para la inserción de datos iniciales en las tablas.
 - `dql.sql`: Archivo que contiene sentencias SQL para la consulta de los datos en las tablas.
   
