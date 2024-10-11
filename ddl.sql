@@ -202,10 +202,10 @@ CREATE TABLE IF NOT EXISTS Tipos_cosmeticos (
 
 CREATE TABLE IF NOT EXISTS Cosmeticos (
 	id_cosmetico INT PRIMARY KEY AUTO_INCREMENT,
-    id_tipo_cosmetico INT,
-    id_tono_color  INT,
-    fecha_expiracion INT,
-    id_producto INT,
+    	id_tipo_cosmetico INT,
+    	id_tono_color  INT,
+    	fecha_expiracion DATE,
+    	id_producto INT,
 	FOREIGN KEY (id_tipo_cosmetico) REFERENCES Tipos_cosmeticos(id_tipo_cosmetico),
     FOREIGN KEY (id_tono_color) REFERENCES Tonos_Colores(id_tono_color),
     FOREIGN KEY (id_producto) REFERENCES Productos(id_producto)
