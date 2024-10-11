@@ -12,14 +12,23 @@ Base de datos para una tienda de cosmeticos.
    
 ## Información general :speech_balloon:
 <a name="info-general"></a>
-Información general del proyecto (estado, diseño, etc).
 
-- **Estado**: en construcción :hammer:
+- **Estado**: completado :white_check_mark:
   
-### Estructura 
-Explicación de la estructura del proyecto.
+### Diagrama E-R
 
-### Diseño
+ <img src="/imagenes-readme/home-can.png" width="80%" alt="home">
+
+
+### Entidades principales 
+- Productos: tabla que contiene la información relacionada a productos. 
+- Clientes: tabla que contiene la información relacionada a clientes. 
+- Ventas: tabla que contiene la informacion relacionada a las ventas hechas a clientes. 
+- Empleados: tabla que contiene la información de los empleados de la tienda. 
+- Proveedores: tabla que contiene la información relacionada a los proveedores de la tienda. 
+
+
+### Entidades secundarias 
 Explicación del diseño del proyecto.
   
 ---
