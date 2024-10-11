@@ -29,7 +29,11 @@ Base de datos para una tienda de cosmeticos.
 
 
 ### Entidades secundarias 
-Explicación del diseño del proyecto.
+- Cosmeticos, skincare, accesorios, ...: tablas relacionadas con la tabla producto y contienen informacion adicional de estos de acuerdo a la categoria del producto.
+- Ventas, ventas_productos: tablas relacionadas con productos, clientes y empleados. Para registrar las ventas hechas a clientes.
+- Compras, compras_productos: tablas relacionadas con productos, proveedores. Para registrar las compras de productos hechas a proveedores.
+- Empresas, empresas_proveedores: tablas relacionadas con el proveedor. Guardar informacion adicional acerca del proveedor y a la empresa que pertenece.
+- Tipos_piel, aromas, tonos_colores, ...: tablas que estan relacionadas con diferentes productos y que contiene informacion adicional acerca de este. 
   
 ---
 
