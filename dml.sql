@@ -38,17 +38,14 @@ INSERT INTO Productos (nombre, descripcion, precio, stock, id_marca) VALUES
 ('Labial Nude', 'Labial mate color nude', 13.50, 80, 10);
 
 -- Inserciones en la tabla Tipos_Cosmeticos
-INSERT INTO Tipos_Cosmeticos (nombre) VALUES 
+-- Inserciones en la tabla Tipos_cosmeticos
+INSERT INTO Tipos_cosmeticos (nombre) VALUES
 ('Maquillaje para labios'),
 ('Maquillaje para ojos'),
-('Maquillaje para rostro'),
-('Maquillaje para cejas'),
-('Maquillaje para pestañas'),
-('Maquillaje en polvo'),
-('Corrector'),
-('Iluminador'),
-('Bronceador'),
-('Rubor');
+('Base de maquillaje'),
+('Rubor'),
+('Corrector');
+
 
 -- Inserciones en la tabla Componentes
 INSERT INTO Componentes (nombre) VALUES 
@@ -311,27 +308,21 @@ INSERT INTO Perfumes_Aromas (id_aroma, id_perfume) VALUES
 (10, 10);
 
 -- Inserciones en la tabla Tonos_Colores
+-- Inserciones en la tabla Tonos_Colores
 INSERT INTO Tonos_Colores (color_tono, acabado) VALUES 
 ('Rojo', 'Mate'),
-('Nude', 'Brillante'),
-('Rosa', 'Satinado'),
-('Durazno', 'Mate'),
-('Marrón', 'Brillante'),
-('Coral', 'Satinado'),
-('Morado', 'Mate'),
-('Azul', 'Brillante'),
-('Verde', 'Satinado'),
-('Oro', 'Mate');
+('Nude', 'Brillante');
+
 
 -- Inserciones en la tabla Cosmeticos
 INSERT INTO Cosmeticos (id_tipo_cosmetico, id_tono_color, fecha_expiracion, id_producto) VALUES 
 (1, 1, '2025-12-01', 1),
 (2, 2, '2026-06-15', 2),
-(3, 3, '2025-11-10', 3),
-(4, 4, '2026-01-20', 4),
-(5, 5, '2025-10-30', 5),
-(6, 6, '2026-05-15', 6),
-(7, 7, '2025-09-25', 7),
-(8, 8, '2026-03-18', 8),
-(9, 9, '2025-08-05', 9),
-(10, 10, '2026-07-12', 10);
+(1, 1, '2025-10-25', 3),
+(2, 2, '2025-11-30', 4),
+(3, 1, '2026-02-20', 5),
+(3, 2, '2026-03-10', 6),
+(4, 1, '2025-09-18', 7),
+(4, 2, '2025-08-12', 8),
+(5, 1, '2026-04-25', 9),
+(5, 2, '2026-07-01', 10);
